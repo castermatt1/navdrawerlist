@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvLastName"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dp"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tvFirstName"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dp"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawableBottom="@drawable/ic_edit"
+        android:gravity="center"
+        android:minHeight="0dp"
+        android:minWidth="0dp" />
+
+    <Button
+        android:id="@+id/btDeleteUser"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawableBottom="@drawable/ic_delete"
+        android:gravity="center"
+        android:minHeight="0dp"
+        android:minWidth="0dp" />
+
+</LinearLayout>
